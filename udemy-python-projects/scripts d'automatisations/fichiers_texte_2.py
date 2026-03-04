@@ -1,3 +1,6 @@
+# EXERCICES : Ecrire les nombres de 1 à 10 dans un fichier texte, chaque nombre sur une ligne différente.
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 with open ("nombre.txt" , "w") as f :
     for i in range(10) : 
         f.write(f" {i+1}\n")
